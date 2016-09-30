@@ -1,0 +1,29 @@
+{
+  "name": "gulp-translate-updater",
+  "version": "0.1.0",
+  "description": "A Gulp task that updates translations in .js files by merging new keys and updating old ones from *.json files.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Palmabit-IT/gulp-translate-updater"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Daniele Rubetti",
+    "email": "d.rubetti@palmabit.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.0",
+    "gulp-combine-languagefiles": "0.0.1",
+    "gulp-convert": "^0.2.0",
+    "gulp-merge-json": "^0.6.0",
+    "lodash": "^3.6.0",
+    "requirejs": "^2.3.2",
+    "yargs": "^5.0.0"
+  }
+}
